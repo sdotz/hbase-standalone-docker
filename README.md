@@ -1,0 +1,1 @@
+#Hbase standalone in a docker container
