@@ -9,6 +9,6 @@
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>hbase</value>
+    <value>hbase.dev</value>
   </property>
 </configuration>
