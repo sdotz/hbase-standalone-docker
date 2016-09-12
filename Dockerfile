@@ -11,7 +11,7 @@ RUN apk add --no-cache openjdk8-jre
 
 RUN mkdir /opt
 RUN wget -q http://apache.claz.org/hbase/1.2.2/hbase-1.2.2-bin.tar.gz -O /opt/hbase-1.2.2.tar.gz
-RUN cd /opt && tar xfvz hbase-1.2.2.tar.gz
+RUN cd /opt && tar xfvz hbase-1.2.2.tar.gz && rm hbase-1.2.2.tar.gz
 RUN ln -s /opt/hbase-1.2.2 /opt/hbase
 RUN /opt/hbase/bin/hbase-config.sh
 
